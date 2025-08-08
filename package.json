@@ -2,14 +2,14 @@
   "name": "leetcode-csharp",
   "displayName": "leetcode-csharp",
   "description": "方便一点使用 C# 进行 leetcode 刷题",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "machillka",
   "repository": {
     "type": "github",
     "url": "https://github.com/Machillka/leetcode-csharp-extension"
   },
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Other"
@@ -40,7 +40,7 @@
     "@types/fs-extra": "^11.0.4",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
-    "@types/vscode": "^1.102.0",
+    "@types/vscode": "^1.70.0",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
     "@vscode/test-cli": "^0.0.11",
