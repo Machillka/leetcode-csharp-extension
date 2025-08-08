@@ -4,6 +4,10 @@
   "description": "方便一点使用 C# 进行 leetcode 刷题",
   "version": "0.0.1",
   "publisher": "machillka",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Machillka/leetcode-csharp-extension"
+  },
   "engines": {
     "vscode": "^1.102.0"
   },
