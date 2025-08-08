@@ -68,11 +68,11 @@ export function activate(context: vscode.ExtensionContext) {
 			if (!(await fs.pathExists(filePath))) {
 				const codeNumber = extractLongestNumber(name)
 				const content =
-`namespace Solution${codeNumber}
+`namespace Problem${codeNumber}
 {
-  	public class ${name}
+  	public class Solution
 	{
-
+		public
 	}
 }
 `;
