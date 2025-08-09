@@ -57,10 +57,10 @@ export function activate(context: vscode.ExtensionContext) {
 
 			const name = await vscode.window.showInputBox({
 				prompt: '输入 C# 文件名（无需后缀，需包含题号）',
-				validateInput: (v: any) => {
-					if (!v || !/^[A-Za-z_]\w*$/.test(v)) return '文件名需为合法的 C# 标识符样式';
-					return null;
-				}
+				// validateInput: (v: any) => {
+				// 	if (!v || !/^[A-Za-z_]\w*$/.test(v)) return '文件名需为合法的 C# 标识符样式';
+				// 	return null;
+				// }
 			});
 			if (!name) return;
 
@@ -72,7 +72,7 @@ export function activate(context: vscode.ExtensionContext) {
 {
   	public class Solution
 	{
-		public
+
 	}
 }
 `;

@@ -2,7 +2,7 @@
   "name": "leetcode-csharp",
   "displayName": "leetcode-csharp",
   "description": "方便一点使用 C# 进行 leetcode 刷题",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "publisher": "machillka",
   "repository": {
     "type": "github",
